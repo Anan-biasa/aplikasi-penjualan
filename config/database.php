@@ -12,6 +12,4 @@ $koneksi = new mysqli($host, $user, $pass, $db);
 // Error handling (tambahan agar sesuai tujuan praktikum: penanganan error)
 if ($koneksi->connect_error) {
     die('koneksi gagal cihuy: ' . $koneksi->connect_error);
-} else {
-    echo 'koneksi berhasil cihuyyyyyyyyyyy';
-}
+} 
