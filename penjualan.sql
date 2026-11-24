@@ -7,9 +7,13 @@
 -- Server version: 8.4.3
 -- PHP Version: 8.3.30
 
+create database if not exists `penjualan` default character set utf8mb4 collate utf8mb4_0900_ai_ci;
+use `penjualan`;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
+
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
