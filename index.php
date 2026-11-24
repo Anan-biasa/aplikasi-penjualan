@@ -20,7 +20,7 @@ if (!isset($_SESSION['id_user'])) {
     
     <style>
         body { 
-            background-color: #c5dbf2; 
+            background-color: #d0dcf2; 
             padding-top: 65px; 
             padding-bottom: 25px; 
         }
